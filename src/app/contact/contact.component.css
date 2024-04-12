@@ -1,0 +1,21 @@
+/* Custom CSS for contact icons */
+.contact-info .box {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+/* Adjusting the LinkedIn icon position */
+.contact-info .linkedin-box .github-box {
+  margin-right: 50%;
+  margin-left: 50%;
+}
+
+.linkedin-box:hover{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.github-box:hover{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+a{
+  text-decoration: none;
+}

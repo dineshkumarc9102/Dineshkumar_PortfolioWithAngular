@@ -1,0 +1,141 @@
+<div class="container text-center">
+  <button (click)="DownloadFile()" class="btn btn-primary mb-5 shadow border"> Download Resume</button>
+  <div class="pb-2">
+    <accordion [isAnimated]="true" class="shadow">
+      <accordion-group [(isOpen)]="isEducationOpen">
+        <button class="btn btn-block justify-content-between d-flex w-100" accordion-heading>
+          <div style="visibility: hidden;">></div>
+          <div class="btn-link">EDUCATION</div>
+          <div style="width: 10.95px;">
+            <div *ngIf="!isEducationOpen" style="color:white;">></div>
+            <div *ngIf="isEducationOpen" style="color:white;">v</div>
+          </div>
+        </button>
+
+        <div style="text-align: left;">
+          <h2 class="mb-0">Master of Computer Application</h2>
+          <h3 class="text-primary">Vellore Institute of Technology.</h3>
+          <ul>
+            <li>Currently Pursuing</li>
+            <li>8.02 CGPA</li>
+          </ul>
+        </div>
+        <div style="text-align: left;">
+          <h2 class="mb-0">Bachelor of Computer Applications</h2>
+          <h3 class="text-primary">Vellore Institute of Technology.</h3>
+          <ul>
+            <li>Graduated in May 2023.</li>
+            <li>8.49 CGPA</li>
+          </ul>
+        </div>
+        <div style="text-align: left;">
+          <h2 class="mb-0">Higher Secondary</h2>
+          <h3 class="text-primary">Rathinagiri Bageerathan Matriculation Higher Secondary School.</h3>
+          <ul>
+            <li>Graduated in May 2020.</li>
+            <li>70.83%</li>
+          </ul>
+        </div>
+        <div style="text-align: left;">
+          <h2 class="mb-0">Secondary Education</h2>
+          <h3 class="text-primary">Rathinagiri Bageerathan Matriculation Higher Secondary School.</h3>
+          <ul>
+            <li>Graduated in May 2018.</li>
+            <li>84.2%</li>
+          </ul>
+        </div>
+      </accordion-group>
+
+      <accordion-group [(isOpen)]="isCertificationsOpen">
+        <button class="btn btn-block justify-content-between d-flex w-100" accordion-heading>
+          <div style="visibility: hidden;">></div>
+          <div class="btn-link">CERTIFICATIONS</div>
+          <div style="width: 10.95px;">
+            <div *ngIf="!isCertificationsOpen" style="color:white;">></div>
+            <div *ngIf="isCertificationsOpen" style="color:white;">v</div>
+          </div>
+        </button>
+
+        <div style="text-align: left;">
+          <h3>Introduction to Python</h3>
+          <ul>
+            <li>Obtained 2022</li>
+            <li><a href="https://drive.google.com/file/d/1A--lMjqnbiWoMyJ3cU3m87dNUQA5a-Xh/view?usp=drivesdk">View</a></li>
+          </ul>
+        </div>
+        <div style="text-align: left;">
+          <h3>Webdevelopment</h3>
+          <ul>
+            <li>Obtained 2023</li>
+            <li><a href="https://www.coursera.org/account/accomplishments/verify/D2EQLCT6V9JX?utm_source%3Dandroid%26utm_medium%3Dcertificate%26utm_content%3Dcert_image%26utm_campaign%3Dsharing_cta%26utm_product%3Dcourse">View</a></li>
+          </ul>
+        </div>
+        <div style="text-align: left;">
+          <h3>Networking</h3>
+          <ul>
+            <li>Obtained 2023</li>
+            <li><a href="https://drive.google.com/file/d/1C31zURnNN2gJDcimWStHwYWD82eY5q5f/view?usp=drive_link">View</a></li>
+          </ul>
+        </div>
+        <div style="text-align: left;">
+          <h3>Machine Learning with Python</h3>
+          <ul>
+            <li>Obtained 2023</li>
+            <li><a href="https://www.coursera.org/account/accomplishments/verify/8WM795NNNUZ6?utm_source%3Dandroid%26utm_medium%3Dcertificate%26utm_content%3Dcert_image%26utm_campaign%3Dsharing_cta%26utm_product%3Dcourse">View</a></li>
+          </ul>
+        </div>
+        <div style="text-align: left;">
+          <h3>Git and Github</h3>
+          <ul>
+            <li>Obtained 2024</li>
+            <li><a href="https://www.coursera.org/account/accomplishments/verify/6UFKT8Y5Q86C?utm_source%3Dandroid%26utm_medium%3Dcertificate%26utm_content%3Dcert_image%26utm_campaign%3Dsharing_cta%26utm_product%3Dcourse">View</a></li>
+          </ul>
+        </div>
+      </accordion-group>
+
+      <accordion-group [(isOpen)]="isSkillsOpen">
+        <button class="btn btn-block justify-content-between d-flex w-100" accordion-heading>
+          <div style="visibility: hidden;">></div>
+          <div class="btn-link">SKILLS</div>
+          <div style="width: 10.95px;">
+            <div *ngIf="!isSkillsOpen" style="color:white;">></div>
+            <div *ngIf="isSkillsOpen" style="color:white;">v</div>
+          </div>
+        </button>
+
+        <div class="row" style="text-align: left;">
+        <div class="col">
+          <h3> Programming Languages:</h3>
+          <ul>
+            <li>Java</li>
+            <li>Python</li>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>JavaScript</li>
+            <li>TypeScript</li>
+            <li>SQL</li>
+            <li>MongoDB</li>
+          </ul>
+        </div>
+        <div class="col">
+          <h3>Frameworks:</h3>
+          <ul>
+            <li>Angular.JS</li>
+            <li>React.JS</li>
+            <li>Node.JS</li>
+          </ul>
+        </div>
+        <div class="col">
+          <h3>Technologies:</h3>
+          <ul>
+            <li>Front End Development</li>
+            <li>Machine Learning</li>
+          </ul>
+        </div>
+      </div>
+      </accordion-group>
+    </accordion>
+
+  </div>
+
+</div>

@@ -1,0 +1,13 @@
+.top{
+  padding: 2rem 1rem;
+  background-color:rgb(208, 230, 245);
+}
+.text-center{
+  text-align: center;
+}
+.name{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.domain{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}

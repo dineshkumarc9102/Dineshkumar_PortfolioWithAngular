@@ -1,0 +1,13 @@
+accordion-group::ng-deep .btn-link{
+  color:rgb(255, 255, 255);
+}
+accordion-group::ng-deep .card-header{
+  background-color: #007bff;
+}
+
+accordion-group::ng-deep .card-header:hover{
+  background-color: #a4a7ab;
+}
+button:hover{
+background-color: #a4a7ab;
+}
